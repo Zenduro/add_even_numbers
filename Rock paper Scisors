@@ -1,0 +1,44 @@
+import random
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+ ### TIPS ###
+# You will need to use if/elif/else statements
+# You will need to use comparison operators; '>', '<', '=='
+# You will need to use lists/nested lists
+# Remember to use index numbers, starts from [0]
+game_photos = [rock, paper, scissors] 
+
+player_choice = int(input("Let`s play what do you choose? 1 is for Rock, 2 is for Paper or 3 is for Scissors.\n"))
+print(game_photos[player_choice])
+computer_choice = random.randint(1, 3) 
+print("Computer chose:")
+computer_choice = random.randint(1, 3)
+print("Computer chose:")
+
+
+
+

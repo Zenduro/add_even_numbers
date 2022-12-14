@@ -1,0 +1,23 @@
+row1 = ["⬜️","️⬜️","️⬜️"]
+row2 = ["⬜️","⬜️","️⬜️"]
+row3 = ["⬜️️","⬜️️","⬜️️"]
+map = [row1, row2, row3 ]
+print(f"{row1}\n{row2}\n{row3}")
+position = input("Where do you want to put your holy sword? ")
+
+
+horizontal = int(position[0]) 
+vertical = int(position[1])
+
+map[A, B, C][0, 1]
+
+
+position = input("Where do you want to put your holy sword? ")
+
+
+# Start writing your code below
+# Lists start at index number 0!
+# map is just a variable that contains a nested list. It's not related to the map function in Python.
+# Nested lists are accessed from out to in. So if list=[[A,B,C],[E,F,G]] then E = list[1][0]
+# Check that you haven't accidentally added extra spaces and the X is a capital X with a single quote around it.
+

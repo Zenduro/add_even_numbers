@@ -1,0 +1,13 @@
+colors = ['red', 'blue', 'purple', 'yellow', 'green', 'white', 'black']
+colors.remove('black')
+print(colors)
+
+
+
+colors = ['red', 'blue', 'purple', 'yellow', 'green', 'white', 'black']
+colors.append
+print(colors)
+
+
+
+
